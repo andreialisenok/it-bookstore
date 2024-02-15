@@ -6,8 +6,5 @@ export default defineConfig({
   css: {
     devSourcemap: true,
   },
-  cssSourceMap: true,
-  devSourcemap: true,
-  sourcemap: true,
   plugins: [react()],
 });
